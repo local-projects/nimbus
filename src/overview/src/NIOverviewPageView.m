@@ -455,7 +455,8 @@ static const CGFloat kGraphRightMargin = 5;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)dealloc {
-  [[NSOperationQueue mainQueue] removeObserver:self];
+  //  No visible @interface... hmm
+  // [[NSOperationQueue mainQueue] removeObserver:self];
 }
 
 
